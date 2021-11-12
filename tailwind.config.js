@@ -9,6 +9,7 @@ module.exports = {
             colors:{
                 'primary-button':"#695CD5",
                 'primary-blue':"#232077",
+                "font-blue":"#1B2F50",
                 'base-gray':"#F2F1F7"
             }
         },
