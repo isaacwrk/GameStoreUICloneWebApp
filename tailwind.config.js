@@ -1,20 +1,20 @@
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {
-      fontFamily:{
-        sans:['Lato']
-      },
-      colors:{
-        'primary-button':"#695CD5",
-        'primary-blue':"#232077",
-        'base-gray':"#F2F1F7"
-      }
+    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        extend: {
+            fontFamily:{
+                sans:['Lato']
+            },
+            colors:{
+                'primary-button':"#695CD5",
+                'primary-blue':"#232077",
+                'base-gray':"#F2F1F7"
+            }
+        },
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+    variants: {
+        extend: {},
+    },
+    plugins: [],
+};
