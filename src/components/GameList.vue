@@ -1,21 +1,22 @@
 <template>
+
     <div class="flex items-center">
         <!-- media -->
-        <div class="h-28 w-28 ml-10 horizon bg-cover bg-no-repeat rounded">
+        <div class="h-28 w-28 ml-10  bg-cover bg-no-repeat rounded" :class="poster">
         </div>
 
         <!-- content -->
         <div class="text-font-blue bold  bg-base-gray w-44 h-24 flex-1 flex flex-col">
             <p class="mt-2 mr-2 ml-5 text-base font-bold">
-                Horizon: New Dawn
+                {{titleGame}}
             </p>
             <p class="text-xs text-gray-500 ml-5 font-semibold mb-4">
-                Rockstar Games
+                {{gameOwn}}
             </p>
             <div class="flex items-center mb-2 ml-5">
                 <i class="fa fa-star text-primary-button"></i>
-                <p class="text-primary-blue text-sm">4.5 (120)</p>
-                <p class="text-primary-button ml-12 font-bold text-sm">$20.00</p>
+                <p class="text-primary-blue text-sm">{{starRate}}</p>
+                <p class="text-primary-button ml-12 font-bold text-sm">${{price}}</p>
             </div>
         </div>
     </div>
