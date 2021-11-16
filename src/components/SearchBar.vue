@@ -1,5 +1,4 @@
 <template>
-    
     <div class="flex flex-1 mt-10 justify-center">
         <div class="flex border-2 rounded w-72 h-10">
             <button class="flex items-center justify-center px-4">
@@ -9,12 +8,6 @@
             <i class="fa fa-sliders-h text-gray-400  hover:text-green-500 hover:cursor-pointer mt-3 mr-4"></i> 
         </div>
     </div>
-
-   
-    
-    
-    
-    
 </template>
 
 <script lang='ts'>
