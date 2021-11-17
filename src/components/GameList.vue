@@ -14,7 +14,7 @@
                 {{gameOwn}}
             </p>
             <div class="flex items-center mb-2 ml-5">
-                <i class="fa fa-star text-primary-button text-xs"></i>
+                <i class="fa fa-star text-primary-button text-npm xs"></i>
                 <p class="ml-1 text-primary-blue text-sm">{{starRate}}</p>
                 <p class="text-primary-button ml-12 font-bold text-sm">${{price}}</p>
             </div>
