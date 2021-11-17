@@ -1,16 +1,17 @@
 <template>
-    <div class="">
-        <header class="relative bg-forza bg-cover bg-no-repeat h-64 w-full">
-            
-        </header>
+    <div>
+        <InfoWallpaper icon="fas fa-angle-left" wallpaper="bg-forza"/>
     </div>
-    
 </template>
 
 <script lang='ts'>
 import { defineComponent } from 'vue';
+import InfoWallpaper from '@/components/InfoWallpaper.vue';
 
 const InfoScreen = defineComponent({
+    components:{
+        InfoWallpaper
+    }
 });
 
 export default InfoScreen;
