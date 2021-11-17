@@ -1,6 +1,10 @@
 <template>
-    <div class="min-h-screen">
+    <div class="">
+        <header class="relative bg-forza bg-cover bg-no-repeat h-64 w-full">
+            
+        </header>
     </div>
+    
 </template>
 
 <script lang='ts'>
@@ -13,5 +17,4 @@ export default InfoScreen;
 </script>
 
 <style>
-
 </style>
