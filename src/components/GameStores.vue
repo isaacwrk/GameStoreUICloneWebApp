@@ -2,10 +2,10 @@
     <div class="relative">
         <div class="flex ml-10 mt-4">
             <p class="w-11 h-11 bg-black rounded">
-                <i class="fab fa-steam text-white text-3xl p-1"  aria-hidden="true"></i>
+                <i class="text-white text-3xl p-1" :class="icon" aria-hidden="true"></i>
             </p>
             <div class="relative">
-                <p class="text-primary-blue font-bold ml-3">Steam</p>
+                <p class="text-primary-blue font-bold ml-3">{{gamePlataform}}</p>
                 <p class="text-gray-400 font-bold ml-3 text-xs">Avaliable</p>
             </div>
             <div class="flex ml-28 mt-3">
@@ -25,6 +25,10 @@ import { defineComponent } from 'vue';
 const GameStores = defineComponent({
     props:{
         icon:{
+            type:String,
+            required:true
+        },
+        gamePlataform:{
             type:String,
             required:true
         }

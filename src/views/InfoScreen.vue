@@ -6,7 +6,8 @@
             text1="Forza Horizon 4 - abbreviated as FH4 - is an open-world racing game developed by Playground Games and Turn 10 Studios, the Steam release was developed by Sumo Digital. The game is set in Great Britain."
             text2="The title is set in a 'heavily-stylised version of Britain within' Scotland and the Lake District of North West England. It features Edinburgh and villages in Cotswolds as one of many locations."
         />
-        <GameStores/>
+        <GameStores icon="fab fa-steam" gamePlataform="Steam"/>
+        <GameStores icon="fab fa-xbox" gamePlataform="Xbox"/>
     </div>
 </template>
 
