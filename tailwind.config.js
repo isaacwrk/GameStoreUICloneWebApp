@@ -20,10 +20,12 @@ module.exports = {
                 'reddead':"url('~@/assets/img/reddeadabout-poster.jpg')"
             },
             width:{
-                '22.6':'22.60rem'
+                '22.6':'22.60rem',
+                '7.8':'7.8rem'
             },
             height:{
-                '7.5':'7.5rem'
+                '7.5':'7.5rem',
+                '2.6':'2.68rem'
             },
             borderRadius:{
                 '4xl':'2.18rem'
