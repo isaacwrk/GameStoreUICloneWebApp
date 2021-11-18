@@ -8,6 +8,7 @@
         />
         <GameStores icon="fab fa-steam" gamePlataform="Steam"/>
         <GameStores icon="fab fa-xbox" gamePlataform="Xbox"/>
+        <BuyNow/>
     </div>
 </template>
 
@@ -18,13 +19,15 @@ import InfoWallpaper from '@/components/InfoWallpaper.vue';
 import InfoDescription from '@/components/InfoDescription.vue';
 import Overview from '@/components/Overview.vue';
 import GameStores from '@/components/GameStores.vue';
+import BuyNow from '@/components/BuyNow.vue';
 
 const InfoScreen = defineComponent({
     components:{
         InfoWallpaper,
         InfoDescription,
         Overview,
-        GameStores
+        GameStores,
+        BuyNow
     }
 });
 

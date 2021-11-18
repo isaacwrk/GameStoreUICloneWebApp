@@ -18,6 +18,15 @@ module.exports = {
                 'origins':"url('~@/assets/img/acorigin-about.jpg')",
                 'dishonored':"url('~@/assets/img/dishonored2-about.jpg')",
                 'reddead':"url('~@/assets/img/reddeadabout-poster.jpg')"
+            },
+            width:{
+                '22.6':'22.60rem'
+            },
+            height:{
+                '7.5':'7.5rem'
+            },
+            borderRadius:{
+                '4xl':'2.18rem'
             }
         },
     },
