@@ -2,7 +2,7 @@
     <div class="">
         <header class="relative bg-cover bg-no-repeat h-64 w-full" :class="wallpaper">
             <div class="absolute  w-10 h-10 text-center bg-white hover:bg-primary-blue rounded top-14 left-7">
-                <i :class="icon" class="p-1 text-2xl hover:text-white" aria-hidden="true"></i>
+                <router-link to="/"><i :class="icon" class="p-1 text-2xl hover:text-white" aria-hidden="true"></i></router-link>
             </div>
         </header>
     </div>
