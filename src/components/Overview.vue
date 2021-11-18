@@ -1,8 +1,8 @@
 <template>
     <div>
-        <p class="ml-10 mt-9 text-font-blue font-bold">Overview</p>
-        <p class="ml-10 mt-2 text-gray-500 text-sm">{{text1}}</p>
-        <p class="ml-10 mt-4 text-gray-500 text-sm">{{text2}}</p>
+        <p class="ml-10 mt-5 text-font-blue font-bold">Overview</p>
+        <p class="ml-10 mt-2 mr-3 text-gray-500 text-xs">{{text1}}</p>
+        <p class="ml-10 mt-4 mr-3 text-gray-500 text-xs">{{text2}}</p>
     </div>
 </template>
 
