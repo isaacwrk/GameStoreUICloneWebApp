@@ -8,7 +8,7 @@
         />
         <GameStores icon="fab fa-steam" gamePlataform="Steam"/>
         <GameStores icon="fab fa-xbox" gamePlataform="Xbox"/>
-        <BuyNow/>
+        <BuyNow text="Price" priceLined="30.00" newPrice="20.00"/>
     </div>
 </template>
 
