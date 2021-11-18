@@ -7,7 +7,8 @@
             <Game class="mt-8" titleGame="Assasins Creed Origins" gameOwn="Ubisoft" price="40.00" starRate="3.7(40)" poster="assasins"/>
             <Game class="mt-6" titleGame="Horizon: New Dawn" gameOwn="Guerrilla Games" price="90.00" starRate="4.7(140)" poster="horizon"/>
             <Game class="mt-6" titleGame="Dishonored 2" gameOwn="Arkane Studios" price="45.00" starRate="4.0(200)" poster="dishonored"/>
-            <Game class="mt-6" titleGame="Forza 4" gameOwn="Playground Games" price="65.00" starRate="4.2(140)" poster="forza"/>
+            <Game class="mt-6" titleGame="Forza 4" gameOwn="Playground Games" price="65.00" starRate="4.2(140)" poster="forza"
+                  :selected="$route.name == 'info'" @click="$router.replace({name:'info'})"/>
             <Game class="mt-6" titleGame="Red Dead 2" gameOwn="Rockstar Games" price="80.00" starRate="4.7(450)" poster="reddead"/>
         </div>
        

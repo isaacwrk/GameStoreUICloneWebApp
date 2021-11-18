@@ -7,7 +7,7 @@
 
         <!-- content -->
         <div class="text-font-blue bold  bg-base-gray w-44 h-24 flex-1 flex flex-col">
-            <p class="mt-2 mr-2 ml-5 text-base font-bold">
+            <p class="mt-2 mr-2 ml-5 text-base font-bold" :class="{'text-primary-blue':selected}">
                 {{titleGame}}
             </p>
             <p class="text-xs text-gray-500 ml-5 font-semibold mb-4">
@@ -46,6 +46,10 @@ const GameList = defineComponent({
         },
         poster:{
             type:String,
+            required:true
+        },
+        selected:{
+            type:Boolean,
             required:true
         }
     }
