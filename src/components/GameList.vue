@@ -6,7 +6,7 @@
         </div>
 
         <!-- content -->
-        <div class="text-font-blue bold  bg-base-gray w-44 h-24 flex-1 flex flex-col">
+        <div class="text-font-blue bold  bg-base-gray w-52 h-24  flex flex-col">
             <p class="mt-2 mr-2 ml-5 text-base font-bold" :class="{'text-primary-blue':selected}">
                 {{titleGame}}
             </p>
