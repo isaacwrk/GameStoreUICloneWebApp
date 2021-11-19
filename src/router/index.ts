@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import SearchScreen from '../views/SearchScreen.vue';
-import InfoScreen from '../views/InfoScreen.vue';
+import Forza from '../views/abouts/Forza4.vue';
+import Dishonored from '../views/abouts/Dishonored2.vue';
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -9,10 +10,15 @@ const routes: Array<RouteRecordRaw> = [
         component: SearchScreen,
     },
     {
-        path:'/info',
-        name:'info',
-        component: InfoScreen
+        path:'/info/forza',
+        name:'forzainfo',
+        component: Forza
     },
+    {
+        path:'/info/dishonored',
+        name:'dishonoredinfo',
+        component: Dishonored
+    }
     
 ];
 

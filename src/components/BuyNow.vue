@@ -5,7 +5,7 @@
             <p class="text-gray-400 font-blue mt-7 ml-3 line-through font-normal">${{priceLined}}</p>
         </div>
         <p class="text-primary-button font-blue font-bold ml-10 mt-2 font-xl">${{newPrice}}</p>
-        <button href="" class="w-7.8 h-2.6 absolute right-8 rounded-lg -bottom-16 bg-primary-button hover:bg-primary-blue text-white">Add to Cart</button>
+        <button class="w-7.8 h-2.6 absolute right-8 rounded-lg -bottom-16 bg-primary-button hover:bg-primary-blue text-white">Add to Cart</button>
     </div>
 </template>
 
