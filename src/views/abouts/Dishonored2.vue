@@ -3,7 +3,7 @@
         <InfoWallpaper icon="fas fa-angle-left" wallpaper="bg-dishonored"/>
         <InfoDescription titleGame="Dishonored 2" gameOwner="Arkane Studios"/>
         <Overview
-            text1="Reprise your role as a supernatural assassin in Dishonored 2."
+            text1="Reprise your role as a supernatural assassin in Dishonored 2. Declared a “masterpiece” by Eurogamer,  Dishonored 2 is the follow up to Arkane’s 1st-person action blockbuster  winner of 100+ 'Game of the Year' awards, Dishonored."
             text2="Dishonored 2 is set 15 years after the Lord Regent has been vanquished and the dreaded Rat Plague has passed into history. An otherworldly usurper has seized Empress Emily Kaldwin’s throne, leaving the fate of the Isles hanging in the balance."
         />
         <GameStores icon="fab fa-steam" gamePlataform="Steam"/>
