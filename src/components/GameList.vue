@@ -49,8 +49,7 @@ const GameList = defineComponent({
             required:true
         },
         selected:{
-            type:Boolean,
-            required:true
+            type:Boolean
         }
     }
 });

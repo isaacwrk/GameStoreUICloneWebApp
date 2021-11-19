@@ -11,7 +11,6 @@
                   :selected="$route.name == 'info'" @click="$router.replace({name:'info'})"/>
             <Game class="mt-6" titleGame="Red Dead 2" gameOwn="Rockstar Games" price="80.00" starRate="4.7(450)" poster="reddead"/>
         </div>
-       
     </div>
 </template>
 
